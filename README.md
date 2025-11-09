@@ -174,8 +174,6 @@ TR
 
 Google Cloud Platform üzerinde uçtan uca veri mühendisliği projesi: **Airflow + DBT + BigQuery**
 
-[![Airflow](https://img.shields.io/badge/Airflow-3://img.shields.io/badge/DBT-1.8(https://img.shields.io/badge/BigQueryields.io-ticaret verilerini çeken, BigQuery'ye yükleyen ve analitik için DBT kullanarak dönüştüren production-ready veri pipeline'ı.
-
 ### Mimari
 
 ```
@@ -326,11 +324,4 @@ LIMIT 10
 
 
 ***
-
-
-## 🙏 Teşekkürler
-
-- Apache Airflow topluluğu
-- DBT Labs
-- Google Cloud Platform
 
