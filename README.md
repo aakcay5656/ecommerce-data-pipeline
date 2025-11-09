@@ -60,7 +60,7 @@ Extract (Airflow) → Load (BigQuery) → Transform (DBT) → Analytics
 
 1. **Clone repository**
 ```
-git clone https://github.com/YOUR_USERNAME/ecommerce-data-pipeline.git
+git clone https://github.com/aakcay5656/ecommerce-data-pipeline.git
 cd ecommerce-data-pipeline
 ```
 
