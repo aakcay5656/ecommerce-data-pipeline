@@ -1,0 +1,13 @@
+name: CI Pipeline
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run DBT Tests
+        run: |
+          pip install dbt-bigquery
+          cd dbt_project
+          dbt test

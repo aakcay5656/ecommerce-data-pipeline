@@ -1,0 +1,9 @@
+# requirements.txt
+apache-airflow
+apache-airflow-providers-google==10.22.0
+pandas
+google-cloud-bigquery==3.25.0
+google-cloud-storage
+dbt-core
+dbt-bigquery
+sqlalchemy

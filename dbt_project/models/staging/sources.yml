@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: ecommerce-data-pipeline-476900
+    schema: raw_data
+    tables:
+      - name: orders
+        description: "Raw e-commerce orders"
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+          - name: amount
+            tests:
+              - not_null

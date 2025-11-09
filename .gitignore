@@ -1,0 +1,53 @@
+# .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Airflow
+airflow/logs/*
+!airflow/logs/.gitkeep
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt
+
+# DBT
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+dbt_project/.user.yml
+
+# Credentials - ÇOK ÖNEMLİ!
+credentials/*.json
+*.json
+.env
+*.key
+*.pem
+service-account*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.parquet
+
+# Docker
+.docker/

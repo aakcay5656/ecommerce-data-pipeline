@@ -1,0 +1,13 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: ecommerce-data-pipeline-476900
+      dataset: staging
+      keyfile: ../credentials/ecommerce-data-pipeline-476900-0fbc7fd07174.json
+      location: US
+      threads: 4
+      timeout_seconds: 300
+      priority: interactive

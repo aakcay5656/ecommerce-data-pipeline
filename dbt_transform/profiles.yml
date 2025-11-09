@@ -1,0 +1,10 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: your-project-id
+      dataset: staging
+      keyfile: /path/to/service-account.json
+      location: US

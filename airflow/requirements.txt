@@ -1,0 +1,4 @@
+apache-airflow-providers-google==10.22.0
+dbt-core
+dbt-bigquery
+pandas
