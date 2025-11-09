@@ -309,19 +309,5 @@ ORDER BY total_amount DESC
 LIMIT 10
 ```
 
-***
 
-## 💰 Maliyet Optimizasyonu
-
-- **BigQuery partitioning** tarih bazlı
-- Sık sorgulanan kolonlarda **Clustering**
-- **Incremental DBT modelleri** (planlanıyor)
-- **Aynı bölge deployment'ı** (US)
-- **Ücretsiz kullanım**: Aylık 1TB sorgu
-
-**Tahmini aylık maliyet**: $0-5 (ücretsiz kotada)
-
-
-
-***
 
